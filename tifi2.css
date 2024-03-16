@@ -1,0 +1,91 @@
+body{
+  background-color: black;
+}
+
+.navbar{
+  padding: 20px 20px 10px 10px;
+}
+
+section{
+  padding: 0px 20px;
+}
+
+.navbar{
+  background-color: black;
+}
+
+.navbar-brand{
+ color: white;
+}
+.nav-link{
+  color: white;
+}
+.nav-link:hover{
+  color: white;
+}
+.nav-item .nav-link.active{
+  color: white;
+}
+.nav-item .nav-link.active:hover{
+  color: white;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:active {
+    color: white !important; /* Keeps the color the same as the parent element */
+    background-color: transparent !important; /* Prevents background color change */
+}
+
+
+.navbar-toggler{
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 0.5px solid white;
+  border-radius: 1px;
+  
+}
+
+.dropdown-item{
+  
+}
+.btn{
+  background-color: rgb(235, 83, 40);
+  border: rgb(235, 83, 40);
+  color: white;
+}
+
+.btn:hover{
+  background-color: rgba(197, 85, 11, 0.63);
+  color: white;
+}
+
+#mid{
+  margin-top: 50px;
+}
+#home{
+  display: flex;
+  justify-content: center;
+}
+.display-5{
+  color: white;
+}
+
+.display-6{
+  color: lightgray;
+}
+
+#features{
+  color: white;
+}
+
+.col-md-5{
+  padding: 15px 10px;
+}
+
+.text-center.up{
+color: rgb(235, 83, 40);
+}
+ul li a {
+  text-decoration: none; /* Remove underline */
+  color: white; /* Set text color to white */
+}
